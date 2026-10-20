@@ -1,0 +1,23 @@
+node_modules/
+.expo/
+dist/
+web-build/
+
+# Local Android build state and caches
+
+**/.gradle/
+android/.idea/
+android/**/build/
+
+# Local debug and environment files
+
+_.orig._
+_.jks
+_.p8
+_.p12
+_.key
+_.mobileprovision
+.env_.local
+npm-debug._
+yarn-debug._
+yarn-error.\*

@@ -1,8 +1,8 @@
 {
   "expo": {
     "name": "tan",
-    "slug": "Tan!",
-      "scheme": "Tan! ",
+    "slug": "tan",
+    "scheme": "Tan! ",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,22 +12,31 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    // "assetBundlerPatterns":["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
-      "permissions": ["ACCESS_FINE_LOCATION"],
+      "permissions": [
+        "ACCESS_FINE_LOCATION"
+      ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.tan"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      "expo-router"
-    ]
+      "expo-router",
+      "expo-status-bar"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "2a89dc42-a10c-4395-b7ed-3a0ae8f85a13"
+      }
+    }
   }
 }
