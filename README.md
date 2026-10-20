@@ -66,15 +66,3 @@ You can then open the project with Expo Go, an Android emulator, an iOS simulato
 
 This project is currently presented as a functional prototype for a Diploma Final Year Project. The main user experience and application flow have been implemented, while production deployment, backend reliability, and release-build configuration remain areas for future improvement.
 
-## Future Improvements
-
-- Improve production APK support
-- Move backend communication to HTTPS
-- Improve authentication and session handling
-- Add richer push notification functionality
-- Improve database and API error handling
-- Add more polished UI animations and accessibility support
-
-## Author
-
-Developed as a Diploma Final Year Project by **Tan Jia Ming**.
